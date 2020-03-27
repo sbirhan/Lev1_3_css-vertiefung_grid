@@ -1,0 +1,34 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 15vh 66vh 15vh;     
+    grid-template-columns: 30vw 68vw;
+    grid-template-areas: "header header" "aside main"  "footer footer";
+    width: 99vw;
+    margin: 10px;
+    gap: 5px;
+}
+
+.header{
+    background-color: blue;
+    grid-area: header;
+}
+
+.main{
+    background-color: red;
+    grid-area: main;
+}
+
+.aside{
+    background-color: green;
+    grid-area:aside;
+}
+
+.footer{
+    background-color: purple;
+    grid-area:footer
+}
