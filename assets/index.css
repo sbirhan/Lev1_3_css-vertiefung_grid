@@ -6,7 +6,7 @@ html, body{
 .grid-container{
     display: grid;
     grid-template-rows: 15vh 66vh 15vh;     
-    grid-template-columns: 30vw 68vw;
+    grid-template-columns: 20vw 78vw;
     grid-template-areas: "header header" "aside main"  "footer footer";
     width: 99vw;
     margin: 10px;
